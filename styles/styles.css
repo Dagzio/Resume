@@ -70,7 +70,7 @@ body {
 
 .project_item {
   color: #000000;
-
+  max-width: 600px;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
@@ -78,6 +78,20 @@ body {
 
 .project_link {
   margin-left: 10px;
+}
+
+.project_description,
+.project_type,
+.project_role {
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.project_description,
+.role,
+.role_description {
+  font-weight: 500;
 }
 
 .project,
